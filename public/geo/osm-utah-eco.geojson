@@ -1,0 +1,7065 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-25T18:45:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/84532637",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6419253,
+          40.3003133
+        ]
+      },
+      "id": "node/84532637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/150942900",
+        "amenity": "community_centre",
+        "ele": "1483",
+        "gnis:feature_id": "1437411",
+        "name": "Raintree Equestrian Community Condo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8240995,
+          40.5777262
+        ]
+      },
+      "id": "node/150942900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/366385776",
+        "addr:state": "UT",
+        "amenity": "community_centre",
+        "ele": "1614",
+        "gnis:feature_id": "1435022",
+        "name": "Red Mesa Chapter House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.3638404,
+          37.0648423
+        ]
+      },
+      "id": "node/366385776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/428995161",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7102527,
+          40.3551449
+        ]
+      },
+      "id": "node/428995161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461702908",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5037746,
+          40.0253503
+        ]
+      },
+      "id": "node/461702908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/512684625",
+        "amenity": "recycling",
+        "building": "yes",
+        "name": "Recycle Utah",
+        "operator": "Recycle Utah",
+        "recycling:batteries": "yes",
+        "recycling:beverage_cartons": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:clothes": "no",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "no",
+        "recycling:magazines": "yes",
+        "recycling:mobile_phones": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bags": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "yes",
+        "recycling:printer_cartridges": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:sheet_metal": "yes",
+        "recycling:shoes": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:waste": "no",
+        "recycling:wood": "yes",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5033866,
+          40.6605616
+        ]
+      },
+      "id": "node/512684625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/746852816",
+        "amenity": "recycling",
+        "recycling:glass": "no",
+        "recycling:glass_bottles": "yes",
+        "recycling:metal": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5003987,
+          37.1363772
+        ]
+      },
+      "id": "node/746852816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/760913426",
+        "amenity": "recycling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.558063,
+          37.0965148
+        ]
+      },
+      "id": "node/760913426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/760915020",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:beverage_cartons": "no",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "no",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5925015,
+          37.1097397
+        ]
+      },
+      "id": "node/760915020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/760916681",
+        "amenity": "recycling",
+        "recycling:newspaper": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6204957,
+          37.1292068
+        ]
+      },
+      "id": "node/760916681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/953980623",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6807111,
+          40.3230181
+        ]
+      },
+      "id": "node/953980623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1277226102",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4820346,
+          37.1381674
+        ]
+      },
+      "id": "node/1277226102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293762499",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8935575,
+          40.4174745
+        ]
+      },
+      "id": "node/1293762499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1355491782",
+        "leisure": "garden",
+        "name": "Secret Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9104794,
+          40.4324707
+        ]
+      },
+      "id": "node/1355491782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1355493731",
+        "leisure": "garden",
+        "name": "Rose Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9122773,
+          40.4330815
+        ]
+      },
+      "id": "node/1355493731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1355509929",
+        "leisure": "garden",
+        "name": "Light of the World"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.910198,
+          40.4327728
+        ]
+      },
+      "id": "node/1355509929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1832540319",
+        "amenity": "recycling",
+        "recycling:glass": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8499613,
+          40.7780072
+        ]
+      },
+      "id": "node/1832540319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838305623",
+        "amenity": "shelter",
+        "name": "Farmington Shelter 1",
+        "shelter_type": "public_transport",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9035095,
+          40.9871591
+        ]
+      },
+      "id": "node/1838305623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838305625",
+        "amenity": "shelter",
+        "name": "Farmington Shelter 2",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9034549,
+          40.9872317
+        ]
+      },
+      "id": "node/1838305625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838305633",
+        "amenity": "shelter",
+        "name": "Farmington Shelter 3",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9038744,
+          40.9873867
+        ]
+      },
+      "id": "node/1838305633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838305637",
+        "amenity": "shelter",
+        "name": "Farmington Shelter 4",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9037999,
+          40.9874455
+        ]
+      },
+      "id": "node/1838305637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1850376429",
+        "amenity": "recycling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6533919,
+          40.0276607
+        ]
+      },
+      "id": "node/1850376429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1871659831",
+        "access": "yes",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Momentum Recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9253442,
+          40.7988913
+        ]
+      },
+      "id": "node/1871659831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1871660476",
+        "access": "yes",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Momentum Recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9471721,
+          40.7953427
+        ]
+      },
+      "id": "node/1871660476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1871661475",
+        "access": "yes",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Momentum Recycling",
+        "recycling:cans": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.926929,
+          40.775527
+        ]
+      },
+      "id": "node/1871661475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1871663637",
+        "access": "yes",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Momentum Recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.916576,
+          40.7905147
+        ]
+      },
+      "id": "node/1871663637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1871665411",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:glass": "no",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8651201,
+          40.7199033
+        ]
+      },
+      "id": "node/1871665411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1974039953",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5827667,
+          37.0746149
+        ]
+      },
+      "id": "node/1974039953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2162876499",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6455025,
+          40.5607712
+        ]
+      },
+      "id": "node/2162876499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519782051",
+        "amenity": "recycling",
+        "name": "Sunset Camp",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1727221,
+          37.6228112
+        ]
+      },
+      "id": "node/2519782051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2983983804",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:clothes": "no",
+        "recycling:glass": "yes",
+        "recycling:paper": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5248185,
+          37.1266369
+        ]
+      },
+      "id": "node/2983983804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3340475471",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2658044,
+          39.3499348
+        ]
+      },
+      "id": "node/3340475471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3450573164",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9488963,
+          41.2349916
+        ]
+      },
+      "id": "node/3450573164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3450573165",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9496044,
+          41.2350077
+        ]
+      },
+      "id": "node/3450573165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3450573169",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9517502,
+          41.2351892
+        ]
+      },
+      "id": "node/3450573169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3635135123",
+        "amenity": "recycling",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.595362,
+          37.2790304
+        ]
+      },
+      "id": "node/3635135123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4068989473",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.842302,
+          40.629286
+        ]
+      },
+      "id": "node/4068989473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4087446119",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9030713,
+          40.8806793
+        ]
+      },
+      "id": "node/4087446119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4087446120",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.903267,
+          40.8802532
+        ]
+      },
+      "id": "node/4087446120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4087446432",
+        "amenity": "shelter",
+        "name": "North Temple Bridge Rail Shelter North",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9051353,
+          40.7722806
+        ]
+      },
+      "id": "node/4087446432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4087446433",
+        "amenity": "shelter",
+        "name": "North Temple Bridge Rail Shelter South",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9051153,
+          40.7727531
+        ]
+      },
+      "id": "node/4087446433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4087446434",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9047125,
+          40.7716087
+        ]
+      },
+      "id": "node/4087446434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4145000846",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6697204,
+          40.312354
+        ]
+      },
+      "id": "node/4145000846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4209392124",
+        "amenity": "community_centre",
+        "check_date": "2024-10-21",
+        "name": "Star Hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.547722,
+          38.5735843
+        ]
+      },
+      "id": "node/4209392124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4262058989",
+        "addr:housenumber": "2266",
+        "addr:postcode": "84109",
+        "addr:street": "East Evergreen Avenue",
+        "amenity": "community_centre",
+        "check_date:opening_hours": "2022-03-28",
+        "internet_access": "wlan",
+        "name": "Millcreek Community Center",
+        "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-19:00; Sa 07:00-18:00",
+        "phone": "+1 385 468 1380",
+        "website": "https://slco.org/recreation/millcreek/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8265064,
+          40.6965221
+        ]
+      },
+      "id": "node/4262058989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271863672",
+        "amenity": "community_centre",
+        "community_centre:for": "senior",
+        "name": "Grand County Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5409515,
+          38.5742315
+        ]
+      },
+      "id": "node/4271863672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4286292110",
+        "amenity": "recycling",
+        "check_date:recycling": "2022-06-20",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.876126,
+          40.7445513
+        ]
+      },
+      "id": "node/4286292110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336406389",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.905402,
+          40.987586
+        ]
+      },
+      "id": "node/4336406389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374664688",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8309725,
+          40.7646707
+        ]
+      },
+      "id": "node/4374664688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374668075",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8365308,
+          40.7642192
+        ]
+      },
+      "id": "node/4374668075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374668076",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8367494,
+          40.7646336
+        ]
+      },
+      "id": "node/4374668076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4377143393",
+        "amenity": "community_centre",
+        "internet_access": "wlan",
+        "name": "Department Of WorkForce Services",
+        "name:en": "Department Of WorkForce Services",
+        "opening_hours": "Mo-Fr 08:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8870313,
+          40.7625828
+        ]
+      },
+      "id": "node/4377143393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4377168994",
+        "amenity": "community_centre",
+        "name": "Salt Lake City C.A.P.(Community Action Center)/HEAT, ETC...",
+        "name:en": "Salt Lake City C.A.P.(Community Action Center)/HEAT, ETC..."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8979904,
+          40.7548467
+        ]
+      },
+      "id": "node/4377168994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4421415042",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9268349,
+          40.7760757
+        ]
+      },
+      "id": "node/4421415042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4567641843",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6179931,
+          40.1065847
+        ]
+      },
+      "id": "node/4567641843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4591431038",
+        "amenity": "recycling",
+        "recycling:glass": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7294051,
+          40.3083657
+        ]
+      },
+      "id": "node/4591431038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607220564",
+        "amenity": "community_centre",
+        "name": "Summit Creek Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6640528,
+          40.0106096
+        ]
+      },
+      "id": "node/4607220564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612659124",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934663,
+          40.5115697
+        ]
+      },
+      "id": "node/4612659124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4630056823",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0963473,
+          38.7742654
+        ]
+      },
+      "id": "node/4630056823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4636036108",
+        "addr:city": "Duchesne",
+        "addr:housenumber": "734",
+        "addr:postcode": "84021",
+        "addr:state": "UT",
+        "addr:street": "North Center Street",
+        "amenity": "community_centre",
+        "name": "Duchesne County Administrative Building",
+        "operator": "Duchesne County"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4003733,
+          40.1716728
+        ]
+      },
+      "id": "node/4636036108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4657047150",
+        "amenity": "shelter",
+        "name": "Park Pavillion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2729388,
+          40.6683549
+        ]
+      },
+      "id": "node/4657047150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4698222815",
+        "amenity": "shelter",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6761619,
+          40.0509199
+        ]
+      },
+      "id": "node/4698222815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4758689120",
+        "amenity": "shelter",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.0707681,
+          37.3825818
+        ]
+      },
+      "id": "node/4758689120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5047126741",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.2684818,
+          41.478866
+        ]
+      },
+      "id": "node/5047126741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5113579084",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7218809,
+          40.3046718
+        ]
+      },
+      "id": "node/5113579084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5117869041",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7199878,
+          40.2978417
+        ]
+      },
+      "id": "node/5117869041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5252288039",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6944676,
+          40.2355474
+        ]
+      },
+      "id": "node/5252288039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5254698344",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.638648,
+          40.24722
+        ]
+      },
+      "id": "node/5254698344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5257847165",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6852456,
+          40.2417143
+        ]
+      },
+      "id": "node/5257847165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5263299009",
+        "amenity": "shelter",
+        "bbq": "yes",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7531826,
+          40.360054
+        ]
+      },
+      "id": "node/5263299009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5281335376",
+        "amenity": "shelter",
+        "horse": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9499031,
+          40.5096774
+        ]
+      },
+      "id": "node/5281335376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5443858608",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.50469,
+          40.0245968
+        ]
+      },
+      "id": "node/5443858608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5457420658",
+        "amenity": "shelter",
+        "bin": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.694533,
+          40.3336873
+        ]
+      },
+      "id": "node/5457420658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5460093392",
+        "amenity": "shelter",
+        "name": "Cascade West",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6453229,
+          40.3252236
+        ]
+      },
+      "id": "node/5460093392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5460093393",
+        "amenity": "shelter",
+        "name": "Cascade East",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6450869,
+          40.3253341
+        ]
+      },
+      "id": "node/5460093393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5610122759",
+        "amenity": "shelter",
+        "name": "B",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5568927,
+          40.1496691
+        ]
+      },
+      "id": "node/5610122759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5610122760",
+        "amenity": "shelter",
+        "name": "A",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5574111,
+          40.1494656
+        ]
+      },
+      "id": "node/5610122760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5610122761",
+        "amenity": "shelter",
+        "name": "C",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5570608,
+          40.1492175
+        ]
+      },
+      "id": "node/5610122761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5610122762",
+        "amenity": "shelter",
+        "name": "D",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5568694,
+          40.1492978
+        ]
+      },
+      "id": "node/5610122762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5610122763",
+        "amenity": "shelter",
+        "name": "E",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5569534,
+          40.1492389
+        ]
+      },
+      "id": "node/5610122763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5788048888",
+        "amenity": "community_centre",
+        "name": "Uintah County Western Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5220806,
+          40.452138
+        ]
+      },
+      "id": "node/5788048888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5907413300",
+        "amenity": "community_centre",
+        "name": "Swaner Ecocenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5377509,
+          40.721698
+        ]
+      },
+      "id": "node/5907413300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5922522725",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9630178,
+          40.3545281
+        ]
+      },
+      "id": "node/5922522725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6048189530",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5350206,
+          37.0989666
+        ]
+      },
+      "id": "node/6048189530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6062501710",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9280944,
+          40.6765536
+        ]
+      },
+      "id": "node/6062501710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6407379578",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8244988,
+          39.7093422
+        ]
+      },
+      "id": "node/6407379578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6409245310",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8355124,
+          39.7160412
+        ]
+      },
+      "id": "node/6409245310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6409245311",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8348714,
+          39.7160929
+        ]
+      },
+      "id": "node/6409245311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6473729561",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7078696,
+          40.2751885
+        ]
+      },
+      "id": "node/6473729561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6506663867",
+        "amenity": "recycling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9509959,
+          37.25897
+        ]
+      },
+      "id": "node/6506663867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6573473549",
+        "amenity": "community_centre",
+        "name": "Button Up"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8952335,
+          40.7640766
+        ]
+      },
+      "id": "node/6573473549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6630622394",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3642294,
+          41.85784
+        ]
+      },
+      "id": "node/6630622394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6700826313",
+        "amenity": "shelter",
+        "material": "wood",
+        "shelter_type": "sun_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.96945,
+          41.2346334
+        ]
+      },
+      "id": "node/6700826313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6710142498",
+        "amenity": "shelter",
+        "reservation": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8686357,
+          40.8793555
+        ]
+      },
+      "id": "node/6710142498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6721879833",
+        "amenity": "recycling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4873938,
+          38.5143926
+        ]
+      },
+      "id": "node/6721879833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6788973990",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7421914,
+          40.278643
+        ]
+      },
+      "id": "node/6788973990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6829000528",
+        "addr:housenumber": "10",
+        "addr:street": "West 100 South",
+        "amenity": "community_centre",
+        "changing_table": "no",
+        "community_centre": "community_hall",
+        "name": "State of Utah Driver's License Division",
+        "opening_hours": "Mo,Th 09:00-16:00",
+        "operator": "State of Utah",
+        "toilets": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5876483,
+          39.3581833
+        ]
+      },
+      "id": "node/6829000528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833247556",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9770624,
+          41.2206364
+        ]
+      },
+      "id": "node/6833247556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833247563",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9747524,
+          41.2206155
+        ]
+      },
+      "id": "node/6833247563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833247566",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.974613,
+          41.2208151
+        ]
+      },
+      "id": "node/6833247566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833247571",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9740564,
+          41.2206079
+        ]
+      },
+      "id": "node/6833247571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833247573",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9736029,
+          41.2208012
+        ]
+      },
+      "id": "node/6833247573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6852371242",
+        "amenity": "shelter",
+        "name": "Prospect Point Terrace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8233404,
+          40.767756
+        ]
+      },
+      "id": "node/6852371242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6946427818",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6609205,
+          40.2425739
+        ]
+      },
+      "id": "node/6946427818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6954917012",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8561076,
+          40.3678764
+        ]
+      },
+      "id": "node/6954917012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6956028268",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9909036,
+          40.6845056
+        ]
+      },
+      "id": "node/6956028268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7771470725",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6345123,
+          40.4345079
+        ]
+      },
+      "id": "node/7771470725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7897107500",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5529959,
+          38.5775837
+        ]
+      },
+      "id": "node/7897107500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7900370682",
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "200",
+        "addr:postcode": "84112",
+        "addr:state": "UT",
+        "addr:street": "South Central Campus Drive",
+        "addr:unit": "Room 409",
+        "amenity": "community_centre",
+        "description": "The LGBT Resource Center acts in accountability with the campus community by identifying the needs of people with a queer range of (a)gender and (a)sexual experiences and responding with university-wide services.",
+        "email": "lgbtrc@sa.utah.edu",
+        "fax": "+1-801-581-3507",
+        "image": "https://lgbt.utah.edu/_images/spot-images/about_us.jpg",
+        "level": "4",
+        "lgbtq": "primary",
+        "name": "LGBT Resource Center",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "opening_hours:covid19": "Th 13:00-17:00",
+        "phone": "+1-801-587-7973",
+        "start_date": "2002-04",
+        "website": "https://lgbt.utah.edu/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.846623,
+          40.7649109
+        ]
+      },
+      "id": "node/7900370682"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7911228517",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5191254,
+          38.5818454
+        ]
+      },
+      "id": "node/7911228517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7911228518",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5198469,
+          38.5810738
+        ]
+      },
+      "id": "node/7911228518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7917314411",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6785703,
+          40.3168866
+        ]
+      },
+      "id": "node/7917314411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7928632838",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9102888,
+          40.7495169
+        ]
+      },
+      "id": "node/7928632838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7936519454",
+        "leisure": "garden",
+        "name": "Lulu's Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3398577,
+          40.5043664
+        ]
+      },
+      "id": "node/7936519454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7966291651",
+        "amenity": "shelter",
+        "lit": "no",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8624896,
+          40.9033267
+        ]
+      },
+      "id": "node/7966291651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8019656708",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3072491,
+          39.141571
+        ]
+      },
+      "id": "node/8019656708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8033270388",
+        "access": "permissive",
+        "fee": "no",
+        "garden:type": "botanical",
+        "leisure": "garden",
+        "name": "Bountiful Temple Underground Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.846785,
+          40.8835528
+        ]
+      },
+      "id": "node/8033270388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8048300235",
+        "amenity": "shelter",
+        "name": "Liberty Laning North Pergola",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98451,
+          40.6237444
+        ]
+      },
+      "id": "node/8048300235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8048300236",
+        "amenity": "shelter",
+        "name": "Liberty Landing South Pergola",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.984517,
+          40.6235242
+        ]
+      },
+      "id": "node/8048300236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8112094214",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7329696,
+          40.2895222
+        ]
+      },
+      "id": "node/8112094214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8164745140",
+        "amenity": "shelter",
+        "name": "Dome of Appolonia",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7669592,
+          40.3594019
+        ]
+      },
+      "id": "node/8164745140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8164745146",
+        "amenity": "shelter",
+        "name": "Hex Trove",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7660322,
+          40.3596528
+        ]
+      },
+      "id": "node/8164745146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8220188896",
+        "amenity": "shelter",
+        "lit": "yes",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8473619,
+          40.6461424
+        ]
+      },
+      "id": "node/8220188896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8240929109",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7513202,
+          40.3035717
+        ]
+      },
+      "id": "node/8240929109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8240938534",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7607197,
+          40.3034872
+        ]
+      },
+      "id": "node/8240938534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8240938548",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7513073,
+          40.3029679
+        ]
+      },
+      "id": "node/8240938548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8240938549",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7515383,
+          40.3031055
+        ]
+      },
+      "id": "node/8240938549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8252527189",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8845173,
+          40.5715468
+        ]
+      },
+      "id": "node/8252527189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8313015121",
+        "amenity": "recycling",
+        "recycling:aluminium": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5015856,
+          38.7341742
+        ]
+      },
+      "id": "node/8313015121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8396121276",
+        "amenity": "shelter",
+        "bin": "yes",
+        "lit": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9427866,
+          40.6066149
+        ]
+      },
+      "id": "node/8396121276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8707538605",
+        "amenity": "recycling",
+        "recycling:green_waste": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.3030531,
+          40.6240867
+        ]
+      },
+      "id": "node/8707538605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8707538606",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.303028,
+          40.6241209
+        ]
+      },
+      "id": "node/8707538606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8736731613",
+        "amenity": "shelter",
+        "bin": "yes",
+        "lit": "no",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1571424,
+          37.6758959
+        ]
+      },
+      "id": "node/8736731613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898875509",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.537471,
+          38.5651814
+        ]
+      },
+      "id": "node/8898875509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898897323",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.575623,
+          38.6025824
+        ]
+      },
+      "id": "node/8898897323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898898745",
+        "amenity": "recycling",
+        "recycling:beverage_cartons": "no",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "no",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.576196,
+          38.6027127
+        ]
+      },
+      "id": "node/8898898745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8929374822",
+        "amenity": "shelter",
+        "bench": "no",
+        "bin": "no",
+        "lit": "no",
+        "lockable": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8230707,
+          40.7672656
+        ]
+      },
+      "id": "node/8929374822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8976237846",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7922579,
+          40.6191859
+        ]
+      },
+      "id": "node/8976237846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8997341917",
+        "amenity": "community_centre",
+        "name": "Community learning center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9313424,
+          40.7386328
+        ]
+      },
+      "id": "node/8997341917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9044423395",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4389306,
+          39.6272321
+        ]
+      },
+      "id": "node/9044423395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9106168650",
+        "amenity": "community_centre",
+        "name": "Midvale Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9013754,
+          40.6139802
+        ]
+      },
+      "id": "node/9106168650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9181230871",
+        "alt_name": "Community Opportunity Center",
+        "amenity": "community_centre",
+        "name": "South Salt Lake Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8774493,
+          40.7155193
+        ]
+      },
+      "id": "node/9181230871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9184882598",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8139008,
+          41.743579
+        ]
+      },
+      "id": "node/9184882598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9208478407",
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "353",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "200 South",
+        "addr:unit": "201",
+        "amenity": "community_centre",
+        "name": "801 Labs",
+        "website": "https://www.801labs.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8806956,
+          40.765444
+        ]
+      },
+      "id": "node/9208478407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9228184426",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.811024,
+          41.744353
+        ]
+      },
+      "id": "node/9228184426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9234057893",
+        "amenity": "recycling",
+        "operator": "USU Recycling",
+        "recycling:cans": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8084588,
+          41.7454697
+        ]
+      },
+      "id": "node/9234057893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9234220721",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "lit": "no",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8110674,
+          41.7445838
+        ]
+      },
+      "id": "node/9234220721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9239147699",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8620373,
+          40.6080609
+        ]
+      },
+      "id": "node/9239147699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9254807141",
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "1105 W",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "1000 North",
+        "amenity": "community_centre",
+        "name": "Rose Park Elementary School Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.922255,
+          40.7906873
+        ]
+      },
+      "id": "node/9254807141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9325478282",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8775452,
+          40.4369976
+        ]
+      },
+      "id": "node/9325478282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9622027661",
+        "amenity": "shelter",
+        "backrest": "yes",
+        "bench": "yes",
+        "capacity": "6",
+        "shelter_type": "sun_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1954421,
+          41.0125307
+        ]
+      },
+      "id": "node/9622027661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626947",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5532423,
+          38.5775569
+        ]
+      },
+      "id": "node/9705626947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626948",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5546559,
+          38.578106
+        ]
+      },
+      "id": "node/9705626948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626949",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5543251,
+          38.5775562
+        ]
+      },
+      "id": "node/9705626949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626950",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5546243,
+          38.5775886
+        ]
+      },
+      "id": "node/9705626950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626951",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5540873,
+          38.5775572
+        ]
+      },
+      "id": "node/9705626951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626952",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5546553,
+          38.5783211
+        ]
+      },
+      "id": "node/9705626952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626953",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.553766,
+          38.5775589
+        ]
+      },
+      "id": "node/9705626953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626954",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5535429,
+          38.5775577
+        ]
+      },
+      "id": "node/9705626954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9705626955",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5546554,
+          38.5778891
+        ]
+      },
+      "id": "node/9705626955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9791165621",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7618268,
+          40.3073893
+        ]
+      },
+      "id": "node/9791165621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9791165622",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7621949,
+          40.3090955
+        ]
+      },
+      "id": "node/9791165622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9799110351",
+        "amenity": "shelter",
+        "bin": "yes",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4523918,
+          38.3933269
+        ]
+      },
+      "id": "node/9799110351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9799110354",
+        "amenity": "shelter",
+        "bin": "yes",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.451943,
+          38.3936455
+        ]
+      },
+      "id": "node/9799110354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9799110355",
+        "amenity": "shelter",
+        "bin": "yes",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4519836,
+          38.393313
+        ]
+      },
+      "id": "node/9799110355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9815883224",
+        "amenity": "community_centre",
+        "full_name": "J. Kenneth Webb Senior Citizens Center",
+        "name": "Webb Senior Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8225542,
+          41.8398296
+        ]
+      },
+      "id": "node/9815883224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820972028",
+        "amenity": "community_centre",
+        "name": "Lewiston Club Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8564568,
+          41.9754467
+        ]
+      },
+      "id": "node/9820972028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820982251",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9137281,
+          41.0079531
+        ]
+      },
+      "id": "node/9820982251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9852010657",
+        "amenity": "shelter",
+        "bench": "yes",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.6845381,
+          38.9522972
+        ]
+      },
+      "id": "node/9852010657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9852010658",
+        "amenity": "shelter",
+        "bench": "yes",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.6846632,
+          38.9523714
+        ]
+      },
+      "id": "node/9852010658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9852018095",
+        "amenity": "shelter",
+        "bench": "yes",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.6850596,
+          38.9515486
+        ]
+      },
+      "id": "node/9852018095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9858176651",
+        "amenity": "shelter",
+        "bench": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3936232,
+          41.9461284
+        ]
+      },
+      "id": "node/9858176651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9868720346",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "lit": "yes",
+        "name": "Greeting Room",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.98509,
+          40.7846956
+        ]
+      },
+      "id": "node/9868720346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9871394955",
+        "amenity": "shelter",
+        "shelter_type": "sun_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9696144,
+          41.2342576
+        ]
+      },
+      "id": "node/9871394955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9875059680",
+        "amenity": "community_centre",
+        "name": "David Eccles Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.77065,
+          41.2618231
+        ]
+      },
+      "id": "node/9875059680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9879423480",
+        "amenity": "recycling",
+        "location": "overground",
+        "recycling:cans": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1663568,
+          37.6227635
+        ]
+      },
+      "id": "node/9879423480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903042507",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6591814,
+          40.2621371
+        ]
+      },
+      "id": "node/9903042507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903110004",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6602488,
+          40.2618979
+        ]
+      },
+      "id": "node/9903110004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903117758",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6602322,
+          40.2625957
+        ]
+      },
+      "id": "node/9903117758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9905193345",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6610365,
+          40.2628329
+        ]
+      },
+      "id": "node/9905193345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9920194456",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6612082,
+          40.2622285
+        ]
+      },
+      "id": "node/9920194456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9920194457",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6612159,
+          40.2622288
+        ]
+      },
+      "id": "node/9920194457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9920194458",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6612235,
+          40.2622294
+        ]
+      },
+      "id": "node/9920194458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9920194459",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6612314,
+          40.2622294
+        ]
+      },
+      "id": "node/9920194459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9920194460",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6612387,
+          40.2622303
+        ]
+      },
+      "id": "node/9920194460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9951807339",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6605356,
+          40.2601702
+        ]
+      },
+      "id": "node/9951807339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9975786975",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5088617,
+          41.0166398
+        ]
+      },
+      "id": "node/9975786975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9978846044",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2618484,
+          38.2911837
+        ]
+      },
+      "id": "node/9978846044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9982192189",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6593178,
+          40.2603831
+        ]
+      },
+      "id": "node/9982192189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9982807096",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6598195,
+          40.2595428
+        ]
+      },
+      "id": "node/9982807096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092892",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.270973,
+          40.4759415
+        ]
+      },
+      "id": "node/9989092892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092893",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2704339,
+          40.4753518
+        ]
+      },
+      "id": "node/9989092893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092894",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2722685,
+          40.4756579
+        ]
+      },
+      "id": "node/9989092894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092895",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2717294,
+          40.4748968
+        ]
+      },
+      "id": "node/9989092895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092896",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.272754,
+          40.4747642
+        ]
+      },
+      "id": "node/9989092896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092897",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2741273,
+          40.474652
+        ]
+      },
+      "id": "node/9989092897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092898",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2722203,
+          40.4741766
+        ]
+      },
+      "id": "node/9989092898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092899",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2708443,
+          40.474299
+        ]
+      },
+      "id": "node/9989092899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092900",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2702408,
+          40.4738542
+        ]
+      },
+      "id": "node/9989092900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092901",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2734664,
+          40.4759306
+        ]
+      },
+      "id": "node/9989092901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092902",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2709538,
+          40.4748829
+        ]
+      },
+      "id": "node/9989092902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989092903",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2717581,
+          40.473486
+        ]
+      },
+      "id": "node/9989092903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989182087",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2559534,
+          40.4698825
+        ]
+      },
+      "id": "node/9989182087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989244867",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2581521,
+          40.4692734
+        ]
+      },
+      "id": "node/9989244867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989244868",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.258101,
+          40.4698976
+        ]
+      },
+      "id": "node/9989244868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989244869",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2572153,
+          40.4704213
+        ]
+      },
+      "id": "node/9989244869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989244870",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.256832,
+          40.4700552
+        ]
+      },
+      "id": "node/9989244870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9989244871",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2570506,
+          40.4688652
+        ]
+      },
+      "id": "node/9989244871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990825393",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.260906,
+          40.4683338
+        ]
+      },
+      "id": "node/9990825393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990825395",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2613695,
+          40.4677556
+        ]
+      },
+      "id": "node/9990825395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990825397",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2605136,
+          40.4678167
+        ]
+      },
+      "id": "node/9990825397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990825398",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2606341,
+          40.4673513
+        ]
+      },
+      "id": "node/9990825398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990825400",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2614498,
+          40.4670105
+        ]
+      },
+      "id": "node/9990825400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990825401",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2608071,
+          40.4666908
+        ]
+      },
+      "id": "node/9990825401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990900394",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.25451,
+          40.4670605
+        ]
+      },
+      "id": "node/9990900394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990900395",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2530386,
+          40.4670566
+        ]
+      },
+      "id": "node/9990900395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990900396",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2529055,
+          40.4681323
+        ]
+      },
+      "id": "node/9990900396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990946751",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2520451,
+          40.4629237
+        ]
+      },
+      "id": "node/9990946751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990946753",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2531436,
+          40.4625536
+        ]
+      },
+      "id": "node/9990946753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990946754",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2522763,
+          40.4622897
+        ]
+      },
+      "id": "node/9990946754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9990946756",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2538254,
+          40.4621729
+        ]
+      },
+      "id": "node/9990946756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170547",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2486861,
+          40.4643427
+        ]
+      },
+      "id": "node/9991170547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170548",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2499262,
+          40.4643184
+        ]
+      },
+      "id": "node/9991170548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170549",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2506638,
+          40.4643912
+        ]
+      },
+      "id": "node/9991170549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170550",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2513536,
+          40.464734
+        ]
+      },
+      "id": "node/9991170550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170551",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2494955,
+          40.4637906
+        ]
+      },
+      "id": "node/9991170551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170552",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2498743,
+          40.4631202
+        ]
+      },
+      "id": "node/9991170552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991170553",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2510307,
+          40.4632809
+        ]
+      },
+      "id": "node/9991170553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378087",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.252082,
+          40.4599983
+        ]
+      },
+      "id": "node/9991378087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378089",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2507369,
+          40.461188
+        ]
+      },
+      "id": "node/9991378089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378090",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2514419,
+          40.4607451
+        ]
+      },
+      "id": "node/9991378090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378091",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2532547,
+          40.4609464
+        ]
+      },
+      "id": "node/9991378091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378093",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2531198,
+          40.4599516
+        ]
+      },
+      "id": "node/9991378093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378095",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2509435,
+          40.4595386
+        ]
+      },
+      "id": "node/9991378095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9991378096",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2501856,
+          40.4599737
+        ]
+      },
+      "id": "node/9991378096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9992995934",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2449914,
+          40.4840517
+        ]
+      },
+      "id": "node/9992995934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9992995935",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.244227,
+          40.4837838
+        ]
+      },
+      "id": "node/9992995935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9992995951",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2471529,
+          40.4829417
+        ]
+      },
+      "id": "node/9992995951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9992995967",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2440584,
+          40.4803949
+        ]
+      },
+      "id": "node/9992995967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9992995981",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.242998,
+          40.4835761
+        ]
+      },
+      "id": "node/9992995981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9993112232",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2370423,
+          40.4804904
+        ]
+      },
+      "id": "node/9993112232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9995496374",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2498658,
+          40.6710095
+        ]
+      },
+      "id": "node/9995496374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9995574306",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2372936,
+          40.6782675
+        ]
+      },
+      "id": "node/9995574306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9995580638",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.241478,
+          40.6804091
+        ]
+      },
+      "id": "node/9995580638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10022855287",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5018944,
+          40.8284018
+        ]
+      },
+      "id": "node/10022855287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10022996859",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5506526,
+          40.7118936
+        ]
+      },
+      "id": "node/10022996859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024519170",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4750782,
+          40.8211095
+        ]
+      },
+      "id": "node/10024519170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024566964",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4781875,
+          40.8245664
+        ]
+      },
+      "id": "node/10024566964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570642",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4742302,
+          40.8189473
+        ]
+      },
+      "id": "node/10024570642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570689",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4734641,
+          40.8190576
+        ]
+      },
+      "id": "node/10024570689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570690",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4730436,
+          40.8187975
+        ]
+      },
+      "id": "node/10024570690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570691",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4728698,
+          40.8190866
+        ]
+      },
+      "id": "node/10024570691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570692",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4748549,
+          40.8186751
+        ]
+      },
+      "id": "node/10024570692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570693",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4755846,
+          40.8185038
+        ]
+      },
+      "id": "node/10024570693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024570694",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4754997,
+          40.8183248
+        ]
+      },
+      "id": "node/10024570694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024585078",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.478214,
+          40.8171214
+        ]
+      },
+      "id": "node/10024585078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024679404",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1072781,
+          40.5496895
+        ]
+      },
+      "id": "node/10024679404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024694543",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1044459,
+          40.5473742
+        ]
+      },
+      "id": "node/10024694543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10024694573",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1010644,
+          40.5459202
+        ]
+      },
+      "id": "node/10024694573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10036680717",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6657118,
+          40.9670714
+        ]
+      },
+      "id": "node/10036680717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10036717089",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.380245,
+          40.3367912
+        ]
+      },
+      "id": "node/10036717089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10036717091",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3792501,
+          40.3356566
+        ]
+      },
+      "id": "node/10036717091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10036717103",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3818449,
+          40.3388714
+        ]
+      },
+      "id": "node/10036717103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10051809155",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5896031,
+          38.7790788
+        ]
+      },
+      "id": "node/10051809155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10051809156",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5895854,
+          38.7790623
+        ]
+      },
+      "id": "node/10051809156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10051809157",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5895713,
+          38.7790464
+        ]
+      },
+      "id": "node/10051809157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10051811443",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5892414,
+          38.7769159
+        ]
+      },
+      "id": "node/10051811443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10061675493",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5207247,
+          38.7357472
+        ]
+      },
+      "id": "node/10061675493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10061675494",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5207097,
+          38.7357431
+        ]
+      },
+      "id": "node/10061675494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10061675495",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5206929,
+          38.7357376
+        ]
+      },
+      "id": "node/10061675495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10085067975",
+        "amenity": "shelter",
+        "operator": "Route 12 Grill",
+        "shelter_type": "sun_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0824356,
+          37.623583
+        ]
+      },
+      "id": "node/10085067975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10189428462",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6587498,
+          41.2930333
+        ]
+      },
+      "id": "node/10189428462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10189428472",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6601096,
+          41.2946144
+        ]
+      },
+      "id": "node/10189428472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10189432143",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6306135,
+          40.8411509
+        ]
+      },
+      "id": "node/10189432143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10231370151",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.2879452,
+          37.1790208
+        ]
+      },
+      "id": "node/10231370151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10261274484",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7302756,
+          40.3819994
+        ]
+      },
+      "id": "node/10261274484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10261274485",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7165269,
+          40.3652187
+        ]
+      },
+      "id": "node/10261274485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10261274486",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.706486,
+          40.3523688
+        ]
+      },
+      "id": "node/10261274486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10261274487",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6794898,
+          40.3246745
+        ]
+      },
+      "id": "node/10261274487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10560495677",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8850655,
+          40.5712135
+        ]
+      },
+      "id": "node/10560495677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10560495688",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8847706,
+          40.5709448
+        ]
+      },
+      "id": "node/10560495688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10731514887",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.1623442,
+          38.9915699
+        ]
+      },
+      "id": "node/10731514887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10761461619",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5578635,
+          40.9646974
+        ]
+      },
+      "id": "node/10761461619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10761461620",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.557783,
+          40.9650559
+        ]
+      },
+      "id": "node/10761461620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10761461621",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5577776,
+          40.9654468
+        ]
+      },
+      "id": "node/10761461621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10761461622",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5573109,
+          40.9655683
+        ]
+      },
+      "id": "node/10761461622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10809100954",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8135304,
+          41.7560188
+        ]
+      },
+      "id": "node/10809100954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10901094583",
+        "amenity": "shelter",
+        "bench": "yes",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8274408,
+          41.3048012
+        ]
+      },
+      "id": "node/10901094583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10901094584",
+        "amenity": "shelter",
+        "bench": "yes",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8274409,
+          41.304769
+        ]
+      },
+      "id": "node/10901094584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11184741718",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8261711,
+          41.3053434
+        ]
+      },
+      "id": "node/11184741718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11273343132",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1439139,
+          39.8050875
+        ]
+      },
+      "id": "node/11273343132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11273343133",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1437959,
+          39.8052111
+        ]
+      },
+      "id": "node/11273343133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11273343134",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1437101,
+          39.8055161
+        ]
+      },
+      "id": "node/11273343134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11273343135",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1436886,
+          39.8057139
+        ]
+      },
+      "id": "node/11273343135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11463504640",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.3989965,
+          40.1580851
+        ]
+      },
+      "id": "node/11463504640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11821508252",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.664375,
+          40.2617251
+        ]
+      },
+      "id": "node/11821508252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11841905471",
+        "addr:housenumber": "932",
+        "addr:street": "1100 West",
+        "garden:type": "community",
+        "leisure": "garden",
+        "name": "9-Line Orchard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9225069,
+          40.7495829
+        ]
+      },
+      "id": "node/11841905471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11849845773",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.6601052,
+          40.2609376
+        ]
+      },
+      "id": "node/11849845773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11867357749",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9559226,
+          40.6536113
+        ]
+      },
+      "id": "node/11867357749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11867530529",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9544663,
+          40.6538059
+        ]
+      },
+      "id": "node/11867530529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11867530541",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9549662,
+          40.6536058
+        ]
+      },
+      "id": "node/11867530541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11868093655",
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "1769",
+        "addr:postcode": "84129",
+        "addr:state": "UT",
+        "addr:street": "West 4160 South",
+        "amenity": "community_centre",
+        "name": "Vietnamese American Community of Utah",
+        "name:en": "Vietnamese American Community of Utah",
+        "name:vi": "Cộng Đồng Người Việt Tự Do Utah",
+        "opening_hours": "Mo-Sa 10:00-16:00; Su 12:00-14:00",
+        "phone": "+1 801-680-1622"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9401907,
+          40.6803976
+        ]
+      },
+      "id": "node/11868093655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11952558592",
+        "amenity": "recycling",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0009537,
+          40.547054
+        ]
+      },
+      "id": "node/11952558592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11961599276",
+        "amenity": "shelter",
+        "operator": "Kayenta Recreation Association",
+        "shelter_type": "sun_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7051636,
+          37.1830892
+        ]
+      },
+      "id": "node/11961599276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11963619245",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8868229,
+          40.7587283
+        ]
+      },
+      "id": "node/11963619245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11963619246",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.886773,
+          40.7590649
+        ]
+      },
+      "id": "node/11963619246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11963619252",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8878747,
+          40.7587502
+        ]
+      },
+      "id": "node/11963619252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11963619255",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8872201,
+          40.7590701
+        ]
+      },
+      "id": "node/11963619255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964865850",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8857766,
+          40.759555
+        ]
+      },
+      "id": "node/11964865850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964865856",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.886345,
+          40.7600865
+        ]
+      },
+      "id": "node/11964865856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964865862",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8872622,
+          40.7600309
+        ]
+      },
+      "id": "node/11964865862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964865864",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8868304,
+          40.7600971
+        ]
+      },
+      "id": "node/11964865864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964865865",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8857498,
+          40.7603734
+        ]
+      },
+      "id": "node/11964865865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964877569",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8877089,
+          40.7603401
+        ]
+      },
+      "id": "node/11964877569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964877580",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8867698,
+          40.7603549
+        ]
+      },
+      "id": "node/11964877580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964877582",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.885739,
+          40.7587059
+        ]
+      },
+      "id": "node/11964877582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11965692168",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89067,
+          40.7626901
+        ]
+      },
+      "id": "node/11965692168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11965699071",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8879636,
+          40.7626938
+        ]
+      },
+      "id": "node/11965699071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11965699074",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8885372,
+          40.7626858
+        ]
+      },
+      "id": "node/11965699074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11966757780",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8231909,
+          40.7677559
+        ]
+      },
+      "id": "node/11966757780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992577999",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8880492,
+          40.7630665
+        ]
+      },
+      "id": "node/11992577999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992578009",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8937381,
+          40.7623013
+        ]
+      },
+      "id": "node/11992578009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992578018",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8999924,
+          40.7651388
+        ]
+      },
+      "id": "node/11992578018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992578024",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9022512,
+          40.7648568
+        ]
+      },
+      "id": "node/11992578024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992578034",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.888415,
+          40.763035
+        ]
+      },
+      "id": "node/11992578034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992578063",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8912705,
+          40.7626381
+        ]
+      },
+      "id": "node/11992578063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992611297",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9022404,
+          40.7651411
+        ]
+      },
+      "id": "node/11992611297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992611307",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8999663,
+          40.7648439
+        ]
+      },
+      "id": "node/11992611307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992611332",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89418,
+          40.7624633
+        ]
+      },
+      "id": "node/11992611332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992847802",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8903124,
+          40.764191
+        ]
+      },
+      "id": "node/11992847802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992847807",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909519,
+          40.7638707
+        ]
+      },
+      "id": "node/11992847807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992847841",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8897794,
+          40.7643983
+        ]
+      },
+      "id": "node/11992847841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992847867",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8900102,
+          40.7641802
+        ]
+      },
+      "id": "node/11992847867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992864075",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8893139,
+          40.7643698
+        ]
+      },
+      "id": "node/11992864075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992864127",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8893134,
+          40.7644511
+        ]
+      },
+      "id": "node/11992864127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992864139",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8896656,
+          40.7641063
+        ]
+      },
+      "id": "node/11992864139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992864157",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8900161,
+          40.7646705
+        ]
+      },
+      "id": "node/11992864157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992864162",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8893141,
+          40.7645354
+        ]
+      },
+      "id": "node/11992864162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992920003",
+        "amenity": "community_centre",
+        "name": "Sunnyvale Community Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9088391,
+          40.6864662
+        ]
+      },
+      "id": "node/11992920003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11992920005",
+        "amenity": "community_centre",
+        "name": "YMCA Community & Family Center",
+        "operator": "YMCA",
+        "operator:wikidata": "Q54834579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9355727,
+          40.6793634
+        ]
+      },
+      "id": "node/11992920005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12015265349",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8142039,
+          41.7424121
+        ]
+      },
+      "id": "node/12015265349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12018638589",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8599063,
+          40.7253002
+        ]
+      },
+      "id": "node/12018638589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12018638616",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8604972,
+          40.7253019
+        ]
+      },
+      "id": "node/12018638616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12018638622",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.861144,
+          40.7252929
+        ]
+      },
+      "id": "node/12018638622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021276269",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909458,
+          40.7658899
+        ]
+      },
+      "id": "node/12021276269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021276271",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909447,
+          40.7651728
+        ]
+      },
+      "id": "node/12021276271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021276274",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909596,
+          40.7669603
+        ]
+      },
+      "id": "node/12021276274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021276275",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909456,
+          40.767399
+        ]
+      },
+      "id": "node/12021276275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021276282",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8912772,
+          40.7690977
+        ]
+      },
+      "id": "node/12021276282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021276287",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8908387,
+          40.7648812
+        ]
+      },
+      "id": "node/12021276287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021412485",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8573321,
+          40.7221762
+        ]
+      },
+      "id": "node/12021412485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021412511",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8604603,
+          40.724836
+        ]
+      },
+      "id": "node/12021412511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021666000",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909263,
+          40.7626165
+        ]
+      },
+      "id": "node/12021666000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021666001",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909214,
+          40.7609765
+        ]
+      },
+      "id": "node/12021666001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12021666009",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8909209,
+          40.7603632
+        ]
+      },
+      "id": "node/12021666009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12032102763",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8843892,
+          40.7819571
+        ]
+      },
+      "id": "node/12032102763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12032102765",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8800327,
+          40.7893716
+        ]
+      },
+      "id": "node/12032102765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12032102767",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8834858,
+          40.7845877
+        ]
+      },
+      "id": "node/12032102767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12032125469",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8832199,
+          40.7857132
+        ]
+      },
+      "id": "node/12032125469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12038256381",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8853872,
+          40.7762307
+        ]
+      },
+      "id": "node/12038256381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12038256406",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8851161,
+          40.7775112
+        ]
+      },
+      "id": "node/12038256406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12040530025",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8881936,
+          40.7919124
+        ]
+      },
+      "id": "node/12040530025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12040530036",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8881898,
+          40.7918404
+        ]
+      },
+      "id": "node/12040530036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12040962879",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8138968,
+          41.7436778
+        ]
+      },
+      "id": "node/12040962879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12054186204",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.89412,
+          40.7691342
+        ]
+      },
+      "id": "node/12054186204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12056377083",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8913024,
+          40.7666194
+        ]
+      },
+      "id": "node/12056377083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12067087654",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8937702,
+          40.7630496
+        ]
+      },
+      "id": "node/12067087654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12067087655",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8941487,
+          40.7640334
+        ]
+      },
+      "id": "node/12067087655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12067087661",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling_type": "container",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8937231,
+          40.7618681
+        ]
+      },
+      "id": "node/12067087661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12073797535",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.88958,
+          40.6343589
+        ]
+      },
+      "id": "node/12073797535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12073797536",
+        "amenity": "recycling",
+        "recycling:books": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8895794,
+          40.6343959
+        ]
+      },
+      "id": "node/12073797536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12081978318",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8760493,
+          40.7433662
+        ]
+      },
+      "id": "node/12081978318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12081978324",
+        "amenity": "recycling",
+        "recycling_type": "container",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8761871,
+          40.7433679
+        ]
+      },
+      "id": "node/12081978324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12084263290",
+        "amenity": "recycling",
+        "recycling:books": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.888017,
+          40.6571045
+        ]
+      },
+      "id": "node/12084263290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12123489662",
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9797573,
+          40.6194699
+        ]
+      },
+      "id": "node/12123489662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12133170823",
+        "amenity": "recycling",
+        "colour": "green",
+        "material": "metal",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1705466,
+          37.6154702
+        ]
+      },
+      "id": "node/12133170823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12133170824",
+        "amenity": "recycling",
+        "colour": "brown",
+        "material": "metal",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1669918,
+          37.6282129
+        ]
+      },
+      "id": "node/12133170824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12133170845",
+        "amenity": "recycling",
+        "colour": "brown",
+        "material": "metal",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1671159,
+          37.6292466
+        ]
+      },
+      "id": "node/12133170845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12133170863",
+        "amenity": "recycling",
+        "colour": "brown",
+        "material": "metal",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.166922,
+          37.6292411
+        ]
+      },
+      "id": "node/12133170863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12133170865",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.156809,
+          37.6043224
+        ]
+      },
+      "id": "node/12133170865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175436143",
+        "amenity": "shelter",
+        "bench": "yes",
+        "lit": "no",
+        "lockable": "no",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8924213,
+          40.6801275
+        ]
+      },
+      "id": "node/12175436143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12229775226",
+        "amenity": "recycling",
+        "colour": "green",
+        "covered": "no",
+        "indoor": "no",
+        "recycling:cardboard": "yes",
+        "recycling:paper": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7950328,
+          40.3811679
+        ]
+      },
+      "id": "node/12229775226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12252932387",
+        "amenity": "recycling",
+        "recycling:plastic": "no",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8937857,
+          40.7684179
+        ]
+      },
+      "id": "node/12252932387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12252965680",
+        "amenity": "recycling",
+        "recycling:plastic": "no",
+        "recycling:plastic_packaging": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.892495,
+          40.767329
+        ]
+      },
+      "id": "node/12252965680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12256241861",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8927273,
+          40.7691501
+        ]
+      },
+      "id": "node/12256241861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12256722266",
+        "amenity": "community_centre",
+        "community_centre": "community_hall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7382463,
+          40.0429043
+        ]
+      },
+      "id": "node/12256722266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12259565190",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9005103,
+          40.7693491
+        ]
+      },
+      "id": "node/12259565190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12259680635",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.894142,
+          40.7647309
+        ]
+      },
+      "id": "node/12259680635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12264542584",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8897236,
+          40.7690955
+        ]
+      },
+      "id": "node/12264542584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12264565229",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8900564,
+          40.7691779
+        ]
+      },
+      "id": "node/12264565229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12264566983",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8898407,
+          40.7690959
+        ]
+      },
+      "id": "node/12264566983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12264593895",
+        "amenity": "recycling",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8880675,
+          40.7691681
+        ]
+      },
+      "id": "node/12264593895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12353551141",
+        "allotments": "50",
+        "garden:type": "community",
+        "landuse": "allotments",
+        "leisure": "garden",
+        "name": "Rose Park Neighborhood Center Community Garden",
+        "note": "admittedly I'm guessing a fair bit on the location. This garden is new in 2024 so a survey will be required for precise boundaries.",
+        "operator": "Wasatch Community Gardens",
+        "website": "https://wasatchgardens.org/community-gardens/find-a-community-garden/item/535-rose-park-neighborhood-center-community-garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9137451,
+          40.786232
+        ]
+      },
+      "id": "node/12353551141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12372993899",
+        "access": "yes",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Momentum Recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8720833,
+          40.7552714
+        ]
+      },
+      "id": "node/12372993899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373014405",
+        "access": "yes",
+        "amenity": "recycling",
+        "operator": "Momentum Recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.928041,
+          40.7709217
+        ]
+      },
+      "id": "node/12373014405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373043885",
+        "access": "yes",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "Momentum Recycling",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9000637,
+          40.789429
+        ]
+      },
+      "id": "node/12373043885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12599793279",
+        "amenity": "recycling",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3935039,
+          37.2078041
+        ]
+      },
+      "id": "node/12599793279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12626709620",
+        "amenity": "recycling",
+        "recycling:cans": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5639176,
+          37.1079212
+        ]
+      },
+      "id": "node/12626709620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12637815861",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8618412,
+          40.8905321
+        ]
+      },
+      "id": "node/12637815861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12644576273",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9350016,
+          40.5512121
+        ]
+      },
+      "id": "node/12644576273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12644576275",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9347107,
+          40.5510349
+        ]
+      },
+      "id": "node/12644576275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12650794291",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9346845,
+          40.5522357
+        ]
+      },
+      "id": "node/12650794291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12650796038",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9346392,
+          40.5505881
+        ]
+      },
+      "id": "node/12650796038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12650796039",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9346328,
+          40.5504125
+        ]
+      },
+      "id": "node/12650796039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12650813393",
+        "leisure": "garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9357277,
+          40.5508747
+        ]
+      },
+      "id": "node/12650813393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12652401324",
+        "amenity": "recycling",
+        "recycling:books": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0206103,
+          40.5383098
+        ]
+      },
+      "id": "node/12652401324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12652401325",
+        "amenity": "recycling",
+        "recycling:clothes": "yes",
+        "recycling_type": "container"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0206178,
+          40.5383199
+        ]
+      },
+      "id": "node/12652401325"
+    }
+  ]
+}
