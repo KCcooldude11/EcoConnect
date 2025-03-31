@@ -10,9 +10,10 @@ mapboxgl.accessToken =
 function MapSection() {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
+  const isMapLoaded = useRef(false);
 
   useEffect(() => {
-    if (mapRef.current) return;
+    if (!mapContainer.current || mapRef.current) return;
 
     const map = new mapboxgl.Map({
       container: mapContainer.current,
@@ -22,7 +23,7 @@ function MapSection() {
       minZoom: 6,
       maxZoom: 16,
       attributionControl: false,
-      scrollZoom: false, // Start with scroll zoom disabled
+      scrollZoom: false,
     });
 
     mapRef.current = map;
@@ -30,8 +31,7 @@ function MapSection() {
     map.addControl(new mapboxgl.NavigationControl(), "top-right");
 
     map.on("load", async () => {
-      // 💡 Wait a moment after load before allowing scrollZoom toggle
-      setTimeout(() => map.resize(), 100);
+      isMapLoaded.current = true;
 
       try {
         const res = await fetch("/geo/utah.geojson");
@@ -100,25 +100,30 @@ function MapSection() {
             .setPopup(popup)
             .addTo(map);
         });
+
+        // Force resize once loaded
+        setTimeout(() => {
+          if (map) map.resize();
+        }, 100);
       } catch (err) {
         console.error("Failed to load geojson:", err);
       }
     });
 
-    // Enable scroll zoom on click, then force resize
+    // Scroll zoom toggle
     map.on("click", () => {
       if (!map.scrollZoom.isEnabled()) {
         map.scrollZoom.enable();
-        setTimeout(() => map.resize(), 50);
+        setTimeout(() => map.resize(), 100);
       }
     });
 
-    // Disable again when leaving map area
     const handleMouseLeave = () => {
       if (map.scrollZoom.isEnabled()) {
         map.scrollZoom.disable();
       }
     };
+
     mapContainer.current.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
@@ -127,9 +132,12 @@ function MapSection() {
     };
   }, []);
 
+  // 🧠 Resize on window only if map is loaded
   useEffect(() => {
     const handleResize = () => {
-      if (mapRef.current) mapRef.current.resize();
+      if (mapRef.current && isMapLoaded.current) {
+        mapRef.current.resize();
+      }
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
