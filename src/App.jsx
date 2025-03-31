@@ -4,6 +4,8 @@ import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import DonationsPage from './Pages/DonationsPage';
 import MapPage from './Pages/MapPage';
+import MapTestPage from './Pages/MapTestPage';
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/donations" element={<DonationsPage />} />
         <Route path="/map" element={<MapPage />} />
+        <Route path="/maptest" element={<MapTestPage />} />
       </Routes>
     </Router>
   );

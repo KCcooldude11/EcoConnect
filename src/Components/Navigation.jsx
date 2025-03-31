@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/trees.png";
+import logo from "../assets/logo.png";
 
 function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -48,13 +48,12 @@ function Navigation() {
     >
       <div className="flex justify-between items-center px-8 py-6 h-28 w-full relative">
         {/* 🌱 Logo + Title */}
-        <Link to="/" className="flex items-center space-x-4">
-          <img src={logo} alt="EcoConnect Logo" className="h-14 w-14" />
-          <span className="text-white font-extrabold text-4xl tracking-tight">
+        <Link to="/" className="flex items-center gap-1">
+          <img src={logo} alt="EcoConnect Logo" className="h-16 w-16" />
+          <span className="text-white font-extrabold text-3xl tracking-tight -ml-1">
             EcoConnect
           </span>
         </Link>
-
         {/* 🍔 Hamburger */}
         <div className="relative" ref={dropdownRef}>
           <button
