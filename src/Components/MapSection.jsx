@@ -18,7 +18,7 @@ function MapSection() {
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v12",
-      center: [-111.8910, 40.7608],
+      center: [-111.7, 40.3],
       zoom: 10,
       minZoom: 6,
       maxZoom: 16,
@@ -89,6 +89,8 @@ function MapSection() {
         );
 
         ecoData.forEach(({ name, coords, icon }) => {
+          if (!coords || coords.length !== 2) return;
+
           const el = document.createElement("div");
           el.className = "text-xl";
           el.textContent = icon;
@@ -101,7 +103,6 @@ function MapSection() {
             .addTo(map);
         });
 
-        // Force resize once loaded
         setTimeout(() => {
           if (map) map.resize();
         }, 100);
@@ -110,7 +111,6 @@ function MapSection() {
       }
     });
 
-    // Scroll zoom toggle
     map.on("click", () => {
       if (!map.scrollZoom.isEnabled()) {
         map.scrollZoom.enable();
@@ -132,7 +132,6 @@ function MapSection() {
     };
   }, []);
 
-  // 🧠 Resize on window only if map is loaded
   useEffect(() => {
     const handleResize = () => {
       if (mapRef.current && isMapLoaded.current) {
@@ -146,8 +145,6 @@ function MapSection() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapContainer} className="w-full h-full rounded-2xl" />
-
-      {/* CTA Button */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
         <Link to="/map">
           <button className="bg-green-600 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:bg-green-700 transition">
@@ -155,8 +152,6 @@ function MapSection() {
           </button>
         </Link>
       </div>
-
-      {/* Hint Text */}
       <div className="absolute bottom-2 right-2 text-xs text-white bg-black/50 px-2 py-1 rounded z-10">
         Click map to enable zoom
       </div>
