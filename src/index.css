@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+#leaves img {
+  position: absolute;
+  z-index: 10;
+  opacity: 0.8;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fall1 {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(700px) rotate(90deg); opacity: 0; }
+}
+
+@keyframes fall2 {
+  0% { transform: translateY(0) rotate(45deg); opacity: 1; }
+  100% { transform: translateY(680px) rotate(0deg); opacity: 0; }
+}
+
+@keyframes fall3 {
+  0% { transform: translateY(0) rotate(-30deg); opacity: 1; }
+  100% { transform: translateY(640px) rotate(-90deg); opacity: 0; }
+}
+
+.animate-fall1 { animation-name: fall1; }
+.animate-fall2 { animation-name: fall2; }
+.animate-fall3 { animation-name: fall3; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
