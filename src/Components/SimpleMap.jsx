@@ -106,14 +106,23 @@ function SimpleMap() {
         
           // Add the popup
           const popup = new mapboxgl.Popup({ offset: 30, closeButton: false }).setHTML(`
-            <div style="position: relative; color: black; font-weight: bold; padding: 6px 10px; background: white; border-radius: 6px;">
+            <div style="
+              position: relative;
+              color: black;
+              font-weight: bold;
+              padding: 6px 10px;
+              padding-right: 28px; /* 👈 makes space for the X */
+              background: white;
+              border-radius: 6px;
+              font-family: sans-serif;
+            ">
               <button
                 onclick="this.closest('.mapboxgl-popup').remove()"
                 style="
                   all: unset;
                   position: absolute;
-                  top: 0;
-                  right: 0;
+                  top: 6px;
+                  right: 8px;
                   font-size: 18px;
                   line-height: 1;
                   color: black;
@@ -126,6 +135,7 @@ function SimpleMap() {
               ${name}
             </div>
           `);
+          
   
           // Create marker and bind popup to it (no togglePopup or manual event listener)
           new mapboxgl.Marker({ element: el })
