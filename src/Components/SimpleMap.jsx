@@ -28,6 +28,12 @@ function SimpleMap() {
   }, 200);
 
     mapRef.current.scrollZoom.disable();
+    
+    mapRef.current.on("mouseleave", () => {
+      if (mapRef.current.scrollZoom.isEnabled()) {
+        mapRef.current.scrollZoom.disable();
+      }
+    });
 
     // 🔥 Enable scroll zoom only when the map is clicked
     mapRef.current.on("click", () => {
