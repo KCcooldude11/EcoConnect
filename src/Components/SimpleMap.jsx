@@ -142,20 +142,28 @@ function SimpleMap() {
     return () => mapRef.current?.remove();
   }, []);
 
-  // Global outside-click listener
-  useEffect(() => {
-    const handleOutsideClick = (event) => {
-      const mapEl = mapContainer.current;
-      if (mapEl && !mapEl.contains(event.target)) {
-        if (mapRef.current?.scrollZoom.isEnabled()) {
-          mapRef.current.scrollZoom.disable();
-        }
-      }
-    };
+  // Handle outside click or blur to disable scroll zoom
+useEffect(() => {
+  const handleInteractionOutsideMap = (event) => {
+    const mapEl = mapContainer.current;
+    if (mapEl && !mapEl.contains(event.target)) {
+      mapRef.current?.scrollZoom.disable();
+    }
+  };
 
-    document.addEventListener("click", handleOutsideClick);
-    return () => document.removeEventListener("click", handleOutsideClick);
-  }, []);
+  const handleWindowBlur = () => {
+    mapRef.current?.scrollZoom.disable();
+  };
+
+  document.addEventListener("click", handleInteractionOutsideMap);
+  window.addEventListener("blur", handleWindowBlur);
+
+  return () => {
+    document.removeEventListener("click", handleInteractionOutsideMap);
+    window.removeEventListener("blur", handleWindowBlur);
+  };
+}, []);
+
 
   return (
     <div className="relative h-full w-full">
