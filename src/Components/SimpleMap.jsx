@@ -1,52 +1,54 @@
+// src/Components/SimpleMap.jsx
 import React, { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import { ecoData } from "../data/ecoData";
 import { Link } from "react-router-dom";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken =
-  "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
+mapboxgl.accessToken = "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
 
-function MapSection() {
+function SimpleMap() {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
-  const isMapLoaded = useRef(false);
 
   useEffect(() => {
     if (!mapContainer.current || mapRef.current) return;
 
-    const map = new mapboxgl.Map({
+    mapRef.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v12",
-      center: [-111.7, 40.3],
-      zoom: 10,
+      center: [-111.8910, 40.7608],
+      zoom: 11,
       minZoom: 6,
       maxZoom: 16,
-      attributionControl: false,
-      scrollZoom: false,
+    });
+    // Force resize after short delay to prevent invisible map glitch
+    setTimeout(() => {
+    mapRef.current?.resize();
+  }, 200);
+
+    mapRef.current.scrollZoom.disable();
+
+    // 🔥 Enable scroll zoom only when the map is clicked
+    mapRef.current.on("click", () => {
+      if (!mapRef.current.scrollZoom.isEnabled()) {
+        mapRef.current.scrollZoom.enable();
+      }
     });
 
-    mapRef.current = map;
-
-    map.addControl(new mapboxgl.NavigationControl(), "top-right");
-
-    map.on("load", async () => {
-      isMapLoaded.current = true;
-
+    mapRef.current.on("load", async () => {
       try {
         const res = await fetch("/geo/utah.geojson");
         const utah = await res.json();
 
-        map.addSource("utah", { type: "geojson", data: utah });
-
-        map.addLayer({
+        mapRef.current.addSource("utah", { type: "geojson", data: utah });
+        mapRef.current.addLayer({
           id: "utah-fill",
           type: "fill",
           source: "utah",
           paint: { "fill-color": "#a7f3d0", "fill-opacity": 0.3 },
         });
-
-        map.addLayer({
+        mapRef.current.addLayer({
           id: "utah-outline",
           type: "line",
           source: "utah",
@@ -77,20 +79,15 @@ function MapSection() {
           ],
         };
 
-        map.addSource("utah-mask", { type: "geojson", data: maskGeoJSON });
-        map.addLayer(
-          {
-            id: "utah-dim",
-            type: "fill",
-            source: "utah-mask",
-            paint: { "fill-color": "#000000", "fill-opacity": 0.35 },
-          },
-          "utah-fill"
-        );
+        mapRef.current.addSource("utah-mask", { type: "geojson", data: maskGeoJSON });
+        mapRef.current.addLayer({
+          id: "utah-dim",
+          type: "fill",
+          source: "utah-mask",
+          paint: { "fill-color": "#000000", "fill-opacity": 0.35 },
+        });
 
         ecoData.forEach(({ name, coords, icon }) => {
-          if (!coords || coords.length !== 2) return;
-
           const el = document.createElement("div");
           el.className = "text-xl";
           el.textContent = icon;
@@ -100,51 +97,22 @@ function MapSection() {
           new mapboxgl.Marker({ element: el })
             .setLngLat(coords)
             .setPopup(popup)
-            .addTo(map);
+            .addTo(mapRef.current);
         });
-
-        setTimeout(() => {
-          if (map) map.resize();
-        }, 100);
       } catch (err) {
         console.error("Failed to load geojson:", err);
       }
     });
 
-    map.on("click", () => {
-      if (!map.scrollZoom.isEnabled()) {
-        map.scrollZoom.enable();
-        setTimeout(() => map.resize(), 100);
-      }
-    });
-
-    const handleMouseLeave = () => {
-      if (map.scrollZoom.isEnabled()) {
-        map.scrollZoom.disable();
-      }
-    };
-
-    mapContainer.current.addEventListener("mouseleave", handleMouseLeave);
-
-    return () => {
-      map.remove();
-      mapContainer.current?.removeEventListener("mouseleave", handleMouseLeave);
-    };
-  }, []);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (mapRef.current && isMapLoaded.current) {
-        mapRef.current.resize();
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    return () => mapRef.current?.remove();
   }, []);
 
   return (
     <div className="relative h-full w-full">
       <div ref={mapContainer} className="w-full h-full rounded-2xl" />
+      <div className="absolute bottom-2 right-2 text-xs text-white bg-black/50 px-2 py-1 rounded z-10">
+        Click map to enable zoom
+      </div>
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
         <Link to="/map">
           <button className="bg-green-600 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:bg-green-700 transition">
@@ -152,11 +120,8 @@ function MapSection() {
           </button>
         </Link>
       </div>
-      <div className="absolute bottom-2 right-2 text-xs text-white bg-black/50 px-2 py-1 rounded z-10">
-        Click map to enable zoom
-      </div>
     </div>
   );
 }
 
-export default MapSection;
+export default SimpleMap;

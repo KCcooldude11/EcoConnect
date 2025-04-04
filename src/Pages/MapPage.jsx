@@ -1,47 +1,57 @@
 import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { ecoData } from "../data/ecoData"; // Ensure this exports your sample data
-import { Link } from "react-router-dom";
+import { ecoData } from "../data/ecoData";
 
-
-// Mapbox access token
 mapboxgl.accessToken =
   "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
 
 function MapPage() {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
-  // Store marker instances for filtering
   const markerRefs = useRef([]);
-  const [filter, setFilter] = useState("all");
+  const [filters, setFilters] = useState(["all"]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState(null);
 
-  // Define filter options and display labels (e.g., "community_centre" becomes "Community Center")
-  const filterOptions = ["all", "garden", "recycling", "shelter", "community_centre"];
+  const filterOptions = [
+    "recycling",
+    "zero_waste",
+    "local_products",
+    "plant_store",
+    "community_center",
+    "farmers_market",
+    "thrift_store",
+    "sustainability_workshop",
+    "wildlife_site"
+  ];
+
   const filterLabels = {
     all: "All",
-    garden: "Garden",
     recycling: "Recycling",
-    shelter: "Shelter",
-    community_centre: "Community Center",
+    zero_waste: "Zero Waste",
+    local_products: "Local Products",
+    plant_store: "Plant Stores",
+    community_center: "Community Centers",
+    farmers_market: "Farmers Markets",
+    thrift_store: "Thrift Stores",
+    sustainability_workshop: "Sustainability Workshops",
+    wildlife_site: "Wildlife Sites"
   };
 
   useEffect(() => {
-    if (mapRef.current) return; // Initialize map only once
+    if (mapRef.current) return;
 
-    // Create the map
     mapRef.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v12",
-      center: [-111.8910, 40.7608], // Example center (Salt Lake City)
+      center: [-111.6585, 40.2338],
       zoom: 11,
       minZoom: 6,
       maxZoom: 16,
     });
 
     mapRef.current.on("load", async () => {
-      // Load Utah geojson and add layers
       try {
         const res = await fetch("/geo/utah.geojson");
         const utah = await res.json();
@@ -59,7 +69,7 @@ function MapPage() {
           source: "utah",
           paint: { "line-color": "#10b981", "line-width": 3 },
         });
-        // Create a dimming mask outside Utah
+
         const maskGeoJSON = {
           type: "FeatureCollection",
           features: [
@@ -98,26 +108,25 @@ function MapPage() {
         console.error("Error loading Utah geojson:", error);
       }
 
-      // Add markers from ecoData
-      ecoData.forEach(({ name, coords, icon, type }) => {
-        const el = document.createElement("div");
-        el.className = "text-2xl";
-        el.textContent = icon;
+      ecoData.forEach((location) => {
+        const { name, coords, icon, type, address } = location;
+        if (!coords || coords.length !== 2) return;
 
-        const popup = new mapboxgl.Popup({ offset: 25 }).setText(name);
+        const el = document.createElement("div");
+        el.className = "text-2xl cursor-pointer";
+        el.textContent = icon;
 
         const marker = new mapboxgl.Marker({ element: el })
           .setLngLat(coords)
-          .setPopup(popup)
           .addTo(mapRef.current);
 
-        // Store marker info for filtering
+        el.addEventListener("click", () => setSelectedLocation(location));
+
         markerRefs.current.push({ marker, type, name: name.toLowerCase() });
       });
     });
   }, []);
 
-  // Resize map on window resize
   useEffect(() => {
     const handleResize = () => {
       if (mapRef.current) mapRef.current.resize();
@@ -126,30 +135,46 @@ function MapPage() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Update marker visibility based on filter and search
   useEffect(() => {
     markerRefs.current.forEach(({ marker, type, name }) => {
-      const matchesFilter = filter === "all" || filter === type;
+      const matchesFilter = filters.includes("all") || filters.includes(type);
       const matchesSearch = name.includes(searchTerm.toLowerCase());
       marker.getElement().style.display =
         matchesFilter && matchesSearch ? "block" : "none";
     });
-  }, [filter, searchTerm]);
+  }, [filters, searchTerm]);
+
+  const toggleFilter = (f) => {
+    if (f === "all") {
+      setFilters(["all"]);
+    } else {
+      setFilters((prev) => {
+        const next = prev.includes(f)
+          ? prev.filter((t) => t !== f)
+          : [...prev.filter((t) => t !== "all"), f];
+        return next.length === 0 ? ["all"] : next;
+      });
+    }
+  };
+
+  const clearAllFilters = () => {
+    setFilters(["all"]);
+    setSearchTerm("");
+  };
 
   return (
     <div className="min-h-screen">
       {/* Map Section */}
       <div className="pt-[7rem]">
         <div className="relative">
-          {/* Map container set to 70vh */}
-          <div className="h-[70vh]">
+          <div className="h-[90vh]">
             <div ref={mapContainer} className="w-full h-full" />
             {/* Floating Control Panel */}
             <div className="absolute top-[2rem] left-4 z-10 bg-white p-4 rounded-md shadow-md space-y-4 w-80">
               {/* Search Bar */}
               <div>
                 <label htmlFor="search" className="block text-sm font-medium text-gray-700">
-                  Search Events
+                  Search Locations
                 </label>
                 <input
                   id="search"
@@ -162,56 +187,73 @@ function MapPage() {
               </div>
               {/* Filter Buttons */}
               <div>
-                <span className="block text-sm font-medium text-gray-700 mb-2">Filter:</span>
+                <span className="block text-sm font-medium text-gray-700 mb-2">Filters:</span>
                 <div className="flex flex-wrap gap-2">
-                  {filterOptions.map((f) => (
-                    <button
-                      key={f}
-                      onClick={() => setFilter(f)}
-                      className={`px-3 py-1 rounded text-sm font-medium border transition ${
-                        filter === f
-                          ? "bg-green-600 text-white border-green-700 shadow"
-                          : "bg-white text-gray-700 hover:bg-green-100 border-gray-300"
-                      }`}
-                    >
-                      {filterLabels[f]}
-                    </button>
-                  ))}
+                  {filterOptions.map((f) => {
+                    const isActive = filters.includes(f);
+                    return (
+                      <button
+                        key={f}
+                        onClick={() => toggleFilter(f)}
+                        className={`px-3 py-1 rounded text-sm font-medium border transition ${
+                          isActive
+                            ? "bg-green-600 text-white border-green-700 shadow"
+                            : "bg-white text-gray-700 hover:bg-green-100 border-gray-300"
+                        }`}
+                      >
+                        {filterLabels[f]}
+                      </button>
+                    );
+                  })}
                 </div>
+                <button
+                  onClick={clearAllFilters}
+                  className="mt-3 text-sm text-red-600 hover:underline"
+                >
+                  Clear All
+                </button>
               </div>
             </div>
+
+            {/* Location Detail Bar */}
+            {selectedLocation && (
+              <div className="absolute bottom-0 left-0 w-full bg-white shadow-2xl border-t border-gray-300 z-10">
+                <div className="px-8 py-6">
+                  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div className="text-left">
+                      <h3 className="text-3xl font-bold text-green-800 flex items-center gap-3">
+                        {selectedLocation.icon} {selectedLocation.name}
+                      </h3>
+                      <p className="text-lg text-gray-500 capitalize mt-1">
+                        {filterLabels[selectedLocation.type] || selectedLocation.type}
+                      </p>
+                      {selectedLocation.address && (
+                        <p className="text-lg text-gray-700 mt-2">{selectedLocation.address}</p>
+                      )}
+                      {selectedLocation.phone && (
+                        <p className="text-lg text-gray-700 mt-1">
+                          <span className="text-red-500 mr-2">📞</span> {selectedLocation.phone}
+                        </p>
+                      )}
+                      {selectedLocation.email && (
+                        <p className="text-lg text-gray-700 mt-1">
+                          <span className="text-blue-500 mr-2">✉️</span> {selectedLocation.email}
+                        </p>
+                      )}
+                    </div>
+                    <button
+                      onClick={() => setSelectedLocation(null)}
+                      className="text-lg text-red-600 hover:underline sm:self-start"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
-
-      {/* Donation Tray Section with Professional Styling */}
-      <section className="py-16 bg-gradient-to-b from-green-50 to-green-100">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Support Eco-Connect</h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Your donation helps us connect communities with eco-friendly initiatives.
-            Every contribution makes a difference and helps drive positive change for our planet.
-          </p>
-          <div className="flex justify-center gap-4">
-            <Link to="/donations">
-              <button className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-green-700 transition">
-                Donate Now
-              </button>
-            </Link>
-            <Link to="/about">
-              <button className="bg-white text-green-600 px-8 py-3 rounded-full font-semibold border border-green-600 hover:bg-green-50 transition">
-                Learn More
-              </button>
-            </Link>
-            {/* <a
-              href="/learn-more"
-              className="text-green-600 font-medium hover:underline flex items-center"
-            >
-              Learn More
-            </a> */}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
