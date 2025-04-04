@@ -28,7 +28,7 @@ function SimpleMap() {
   }, 200);
 
     mapRef.current.scrollZoom.disable();
-    
+
     mapRef.current.on("mouseleave", () => {
       if (mapRef.current.scrollZoom.isEnabled()) {
         mapRef.current.scrollZoom.disable();
@@ -36,9 +36,15 @@ function SimpleMap() {
     });
 
     // 🔥 Enable scroll zoom only when the map is clicked
-    mapRef.current.on("click", () => {
+    mapRef.current.on("click", (e) => {
       if (!mapRef.current.scrollZoom.isEnabled()) {
         mapRef.current.scrollZoom.enable();
+      }
+    
+      // Deselect name if clicking somewhere without a marker
+      const features = mapRef.current.queryRenderedFeatures(e.point);
+      if (!features.length) {
+        setSelectedName(null);
       }
     });
 
@@ -95,16 +101,24 @@ function SimpleMap() {
 
         ecoData.forEach(({ name, coords, icon }) => {
           const el = document.createElement("div");
-          el.className = "text-xl";
+          el.className = "text-xl cursor-pointer";
           el.textContent = icon;
-
-          const popup = new mapboxgl.Popup({ offset: 25 }).setText(name);
-
-          new mapboxgl.Marker({ element: el })
+          console.log("Creating popup for:", name);
+        
+          const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`<strong>${name}</strong>`);
+        
+          const marker = new mapboxgl.Marker({ element: el })
             .setLngLat(coords)
             .setPopup(popup)
             .addTo(mapRef.current);
-        });
+        
+          // ✅ Attach the click handler INSIDE the forEach block
+          el.addEventListener("click", () => {
+            marker.togglePopup(); // updated from popup.addTo(...) for better behavior
+          });
+        }); 
+      
+        
       } catch (err) {
         console.error("Failed to load geojson:", err);
       }
@@ -116,9 +130,13 @@ function SimpleMap() {
   return (
     <div className="relative h-full w-full">
       <div ref={mapContainer} className="w-full h-full rounded-2xl" />
+  
+      
+  
       <div className="absolute bottom-2 right-2 text-xs text-white bg-black/50 px-2 py-1 rounded z-10">
         Click map to enable zoom
       </div>
+  
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
         <Link to="/map">
           <button className="bg-green-600 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:bg-green-700 transition">
