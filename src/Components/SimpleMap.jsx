@@ -1,16 +1,17 @@
-// src/Components/SimpleMap.jsx
 import React, { useEffect, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import { ecoData } from "../data/ecoData";
 import { Link } from "react-router-dom";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken = "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
+mapboxgl.accessToken =
+  "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
 
 function SimpleMap() {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
 
+  // Map setup
   useEffect(() => {
     if (!mapContainer.current || mapRef.current) return;
 
@@ -22,10 +23,10 @@ function SimpleMap() {
       minZoom: 6,
       maxZoom: 16,
     });
-    // Force resize after short delay to prevent invisible map glitch
+
     setTimeout(() => {
-    mapRef.current?.resize();
-  }, 200);
+      mapRef.current?.resize();
+    }, 200);
 
     mapRef.current.scrollZoom.disable();
 
@@ -35,16 +36,9 @@ function SimpleMap() {
       }
     });
 
-    // 🔥 Enable scroll zoom only when the map is clicked
-    mapRef.current.on("click", (e) => {
+    mapRef.current.on("click", () => {
       if (!mapRef.current.scrollZoom.isEnabled()) {
         mapRef.current.scrollZoom.enable();
-      }
-    
-      // Deselect name if clicking somewhere without a marker
-      const features = mapRef.current.queryRenderedFeatures(e.point);
-      if (!features.length) {
-        setSelectedName(null);
       }
     });
 
@@ -103,15 +97,14 @@ function SimpleMap() {
           const el = document.createElement("div");
           el.className = "text-xl cursor-pointer";
           el.textContent = icon;
-        
-          // Add the popup
+
           const popup = new mapboxgl.Popup({ offset: 30, closeButton: false }).setHTML(`
             <div style="
               position: relative;
               color: black;
               font-weight: bold;
               padding: 6px 10px;
-              padding-right: 28px; /* 👈 makes space for the X */
+              padding-right: 28px;
               background: white;
               border-radius: 6px;
               font-family: sans-serif;
@@ -135,17 +128,12 @@ function SimpleMap() {
               ${name}
             </div>
           `);
-          
-  
-          // Create marker and bind popup to it (no togglePopup or manual event listener)
+
           new mapboxgl.Marker({ element: el })
             .setLngLat(coords)
             .setPopup(popup)
             .addTo(mapRef.current);
         });
-        
-      
-        
       } catch (err) {
         console.error("Failed to load geojson:", err);
       }
@@ -154,16 +142,29 @@ function SimpleMap() {
     return () => mapRef.current?.remove();
   }, []);
 
+  // Global outside-click listener
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      const mapEl = mapContainer.current;
+      if (mapEl && !mapEl.contains(event.target)) {
+        if (mapRef.current?.scrollZoom.isEnabled()) {
+          mapRef.current.scrollZoom.disable();
+        }
+      }
+    };
+
+    document.addEventListener("click", handleOutsideClick);
+    return () => document.removeEventListener("click", handleOutsideClick);
+  }, []);
+
   return (
     <div className="relative h-full w-full">
       <div ref={mapContainer} className="w-full h-full rounded-2xl" />
-  
-      
-  
+
       <div className="absolute bottom-2 right-2 text-xs text-white bg-black/50 px-2 py-1 rounded z-10">
         Click map to enable zoom
       </div>
-  
+
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
         <Link to="/map">
           <button className="bg-green-600 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:bg-green-700 transition">
