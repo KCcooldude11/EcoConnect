@@ -121,6 +121,7 @@ function SimpleMap() {
                   color: black;
                   font-family: sans-serif;
                   cursor: pointer;
+                  outline: none;
                 "
               >
                 &times;
@@ -128,9 +129,7 @@ function SimpleMap() {
               ${name}
             </div>
           `);
-          
-          
-        
+  
           // Create marker and bind popup to it (no togglePopup or manual event listener)
           new mapboxgl.Marker({ element: el })
             .setLngLat(coords)
