@@ -114,15 +114,16 @@ function SimpleMap() {
                   top: 0;
                   right: 0;
                   padding: 2px 6px;
-                  font-size: 16px;
+                  font-size: 18px;
                   line-height: 1;
                   background: none;
                   border: none;
                   color: black;
+                  font-family: sans-serif;
                   cursor: pointer;
                 "
               >
-                ×
+                &times;
               </button>
               ${name}
             </div>
