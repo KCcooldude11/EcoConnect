@@ -110,18 +110,15 @@ function SimpleMap() {
               <button
                 onclick="this.closest('.mapboxgl-popup').remove()"
                 style="
+                  all: unset;
                   position: absolute;
                   top: 0;
                   right: 0;
-                  padding: 2px 6px;
                   font-size: 18px;
                   line-height: 1;
-                  background: none;
-                  border: none;
                   color: black;
                   font-family: sans-serif;
                   cursor: pointer;
-                  outline: none;
                 "
               >
                 &times;
