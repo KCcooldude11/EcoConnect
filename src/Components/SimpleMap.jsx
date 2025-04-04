@@ -103,20 +103,19 @@ function SimpleMap() {
           const el = document.createElement("div");
           el.className = "text-xl cursor-pointer";
           el.textContent = icon;
-          console.log("Creating popup for:", name);
         
-          const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`<strong>${name}</strong>`);
+          // Add the popup
+          const popup = new mapboxgl.Popup({ offset: 30 }).setHTML(`
+            <div style="font-weight: bold; font-size: 14px; color: black;">${name}</div>
+          `);
         
-          const marker = new mapboxgl.Marker({ element: el })
+          // Create marker and bind popup to it (no togglePopup or manual event listener)
+          new mapboxgl.Marker({ element: el })
             .setLngLat(coords)
             .setPopup(popup)
             .addTo(mapRef.current);
+        });
         
-          // ✅ Attach the click handler INSIDE the forEach block
-          el.addEventListener("click", () => {
-            marker.togglePopup(); // updated from popup.addTo(...) for better behavior
-          });
-        }); 
       
         
       } catch (err) {
