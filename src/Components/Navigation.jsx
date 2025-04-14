@@ -1,13 +1,14 @@
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { useAuth } from "../Components/AuthContext";
 
 function Navigation() {
+  const { user, logout } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [bgAlpha, setBgAlpha] = useState(0.9); // Start opaque
+  const [bgAlpha, setBgAlpha] = useState(0.9);
   const dropdownRef = useRef();
 
-  // Close dropdown if clicked outside
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -18,27 +19,24 @@ function Navigation() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Scroll effect for background transparency
   useEffect(() => {
     function handleScroll() {
       const scrollY = window.scrollY;
-      const maxScroll = 1000; // Takes 600px to reach full fade
-      const minAlpha = 0.1; // or 0.1 if you want to keep some visibility
+      const maxScroll = 1000;
+      const minAlpha = 0.1;
       const maxAlpha = 1;
-  
       const alpha = Math.max(minAlpha, maxAlpha - (scrollY / maxScroll) * maxAlpha);
       setBgAlpha(alpha);
     }
-  
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
 
   const navbarStyle = {
     backgroundColor: `rgba(34, 197, 94, ${bgAlpha})`,
     backdropFilter: "blur(10px)",
-    WebkitBackdropFilter: "blur(10px)"
+    WebkitBackdropFilter: "blur(10px)",
   };
 
   return (
@@ -54,6 +52,7 @@ function Navigation() {
             EcoConnect
           </span>
         </Link>
+
         {/* 🍔 Hamburger */}
         <div className="relative" ref={dropdownRef}>
           <button
@@ -91,8 +90,44 @@ function Navigation() {
               <Link to="/donations" onClick={() => setMenuOpen(false)} className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Donations</Link>
               <Link to="/about" onClick={() => setMenuOpen(false)} className="block px-4 py-2 text-gray-700 hover:bg-gray-100">About</Link>
               <hr className="my-1" />
-              <button className="w-full text-left px-4 py-2 text-green-700 hover:bg-gray-100">Login</button>
-              <button className="w-full text-left px-4 py-2 bg-green-600 text-white hover:bg-green-700 rounded-b">Sign Up</button>
+
+              {user ? (
+                <>
+                  <Link
+                    to="/account"
+                    onClick={() => setMenuOpen(false)}
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                  >
+                    Account
+                  </Link>
+                  <button
+                    onClick={() => {
+                      logout();
+                      setMenuOpen(false);
+                    }}
+                    className="w-full text-left px-4 py-2 text-red-600 hover:bg-gray-100"
+                  >
+                    Logout
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Link
+                    to="/auth?mode=login"
+                    onClick={() => setMenuOpen(false)}
+                    className="block px-4 py-2 text-green-700 hover:bg-gray-100"
+                  >
+                    Login
+                  </Link>
+                  <Link
+                    to="/auth?mode=signup"
+                    onClick={() => setMenuOpen(false)}
+                    className="block px-4 py-2 bg-green-600 text-white hover:bg-green-700 rounded-b"
+                  >
+                    Sign Up
+                  </Link>
+                </>
+              )}
             </div>
           )}
         </div>
