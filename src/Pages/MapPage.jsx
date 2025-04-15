@@ -2,17 +2,24 @@ import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { ecoData } from "../data/ecoData";
+import { eventData } from "../data/eventData";
+//import { ChevronDown, ChevronUp } from "lucide-react";
+import { Link } from "react-router-dom";
 
 mapboxgl.accessToken =
   "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
 
 function MapPage() {
+  const ChevronDown = () => <span>▼</span>;
+  const ChevronUp = () => <span>▲</span>;
+
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
   const markerRefs = useRef([]);
   const [filters, setFilters] = useState(["all"]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLocation, setSelectedLocation] = useState(null);
+  const [showFilters, setShowFilters] = useState(false);
 
   const filterOptions = [
     "recycling",
@@ -23,7 +30,7 @@ function MapPage() {
     "farmers_market",
     "thrift_store",
     "sustainability_workshop",
-    "wildlife_site"
+    "wildlife_site",
   ];
 
   const filterLabels = {
@@ -36,7 +43,7 @@ function MapPage() {
     farmers_market: "Farmers Markets",
     thrift_store: "Thrift Stores",
     sustainability_workshop: "Sustainability Workshops",
-    wildlife_site: "Wildlife Sites"
+    wildlife_site: "Wildlife Sites",
   };
 
   useEffect(() => {
@@ -94,6 +101,7 @@ function MapPage() {
             },
           ],
         };
+
         mapRef.current.addSource("utah-mask", { type: "geojson", data: maskGeoJSON });
         mapRef.current.addLayer(
           {
@@ -121,7 +129,6 @@ function MapPage() {
           .addTo(mapRef.current);
 
         el.addEventListener("click", () => setSelectedLocation(location));
-
         markerRefs.current.push({ marker, type, name: name.toLowerCase() });
       });
     });
@@ -164,14 +171,15 @@ function MapPage() {
 
   return (
     <div className="min-h-screen">
-      {/* Map Section */}
       <div className="pt-[7rem]">
         <div className="relative">
           <div className="h-[90vh]">
             <div ref={mapContainer} className="w-full h-full" />
+
             {/* Floating Control Panel */}
-            <div className="absolute top-[2rem] left-4 z-10 bg-white p-4 rounded-md shadow-md space-y-4 w-80">
-              {/* Search Bar */}
+            <div className="absolute top-[2rem] left-4 z-10 bg-white p-4 rounded-md shadow-md space-y-6 w-80 overflow-y-auto max-h-[90vh]">
+
+              {/* Search */}
               <div>
                 <label htmlFor="search" className="block text-sm font-medium text-gray-700">
                   Search Locations
@@ -186,37 +194,69 @@ function MapPage() {
                 />
               </div>
 
-              {/* Filter Buttons */}
+              {/* Filters Dropdown */}
               <div>
-                <span className="block text-sm font-medium text-gray-700 mb-2">Filters:</span>
-                <div className="flex flex-wrap gap-2">
-                  {filterOptions.map((f) => {
-                    const isActive = filters.includes(f);
-                    return (
-                      <button
-                        key={f}
-                        onClick={() => toggleFilter(f)}
-                        className={`px-3 py-1 rounded text-sm font-medium border transition ${
-                          isActive
-                            ? "bg-green-600 text-white border-green-700 shadow"
-                            : "bg-white text-gray-700 hover:bg-green-100 border-gray-300"
-                        }`}
-                      >
-                        {filterLabels[f]}
-                      </button>
-                    );
-                  })}
-                </div>
                 <button
-                  onClick={clearAllFilters}
-                  className="mt-3 text-sm text-red-600 hover:underline"
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="flex items-center justify-between w-full text-sm font-medium text-gray-700 hover:text-green-600 focus:outline-none"
                 >
-                  Clear All
+                  {showFilters ? "Hide Filters" : "Show Filters"}
+                  {showFilters ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
                 </button>
+
+                {showFilters && (
+                  <div className="mt-3 space-y-2">
+                    {filterOptions.map((f) => {
+                      const isActive = filters.includes(f);
+                      return (
+                        <label key={f} className="flex items-center gap-2 text-sm">
+                          <input
+                            type="checkbox"
+                            checked={isActive}
+                            onChange={() => toggleFilter(f)}
+                            className="accent-green-600"
+                          />
+                          <span>{filterLabels[f]}</span>
+                        </label>
+                      );
+                    })}
+                    <button
+                      onClick={clearAllFilters}
+                      className="mt-2 text-xs text-red-600 hover:underline"
+                    >
+                      Clear All
+                    </button>
+                  </div>
+                )}
+              </div>
+
+              {/* Eco Events Section */}
+              <div className="pt-2">
+                <h3 className="text-sm font-medium text-gray-700 mb-2">Upcoming Events:</h3>
+                <ul className="space-y-3 max-h-[200px] overflow-y-auto pr-1">
+                  {eventData.map((event, index) => (
+                    <Link
+                      key={index}
+                      to={`/events?event=${encodeURIComponent(event.title)}`}
+                      className="block"
+                    >
+                      <li className="bg-green-50 p-3 rounded-md border border-green-200 shadow-sm text-sm hover:bg-green-100 transition">
+                        <div className="font-semibold text-green-700">{event.title}</div>
+                        <div className="text-gray-600">
+                          {event.location_name} – {new Date(event.start_time).toLocaleString()}
+                        </div>
+                        <div className="text-gray-500">{event.address}</div>
+                        <div className="text-xs text-gray-400 mt-1">
+                          📧 {event.contact_email} | 📞 {event.contact_phone}
+                        </div>
+                      </li>
+                    </Link>
+                  ))}
+                </ul>
               </div>
             </div>
 
-            {/* Location Detail Bar */}
+            {/* Location Detail */}
             {selectedLocation && (
               <div className="absolute bottom-0 left-0 w-full bg-white shadow-2xl border-t border-gray-300 z-10">
                 <div className="px-8 py-6">
@@ -252,6 +292,7 @@ function MapPage() {
                 </div>
               </div>
             )}
+
           </div>
         </div>
       </div>
