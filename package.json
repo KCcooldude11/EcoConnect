@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/vite": "^4.0.15",
+    "date-fns": "^4.1.0",
     "firebase": "^11.6.0",
     "mapbox-gl": "^3.10.0",
     "react": "^19.0.0",
+    "react-calendar": "^5.1.0",
     "react-dom": "^19.0.0",
     "react-intersection-observer": "^9.16.0",
     "react-router-dom": "^7.4.0",

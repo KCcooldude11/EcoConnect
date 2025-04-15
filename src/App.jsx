@@ -7,6 +7,8 @@ import MapPage from './Pages/MapPage';
 import MapTestPage from './Pages/MapTestPage';
 import AuthPage from "./Pages/AuthPage";
 import AccountPage from "./Pages/AccountPage";
+import EventsPage from './Pages/EventsPage';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/maptest" element={<MapTestPage />} />
         <Route path="/auth" element={<AuthPage />} />
         <Route path="/account" element={<AccountPage />} />
+        <Route path="/events" element={<EventsPage />} />
       </Routes>
     </Router>
   );
