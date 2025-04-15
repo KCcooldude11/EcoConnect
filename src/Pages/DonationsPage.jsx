@@ -20,9 +20,13 @@ function DonationsPage() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto pt-40 px-6 py-10 text-gray-800">
-      <h1 className="text-3xl font-bold mb-4">Donate to Sustainability Projects</h1>
-      <p className="mb-8 text-lg leading-relaxed">
+    <div className= "h-screen w-full text-gray-800 gap-6 py-28">
+      <div className="flex items-center justify-center bg-gray-100 shadow-lg p-10">
+        <h1 className="text-4xl font-bold">Donate to Sustainability Projects</h1>
+      </div>
+
+      <div className="mx-20">
+      <p className="text-center text-lg m-5">
         Your contributions go directly to trusted environmental organizations. Every dollar helps fund cleanups, conservation efforts, and waste reduction programs.
       </p>
 
@@ -294,6 +298,7 @@ function DonationsPage() {
           }
         `}
       </style>
+    </div>
     </div>
   );
 }

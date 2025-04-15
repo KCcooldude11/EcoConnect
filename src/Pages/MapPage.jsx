@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { ecoData } from "../data/ecoData";
-import { Link } from "react-router-dom";
 
 mapboxgl.accessToken =
   "pk.eyJ1Ijoia2Njb29sZHVkZTExIiwiYSI6ImNtOG5qcHFiZTAxZW0ya29qcHZodDg1ODgifQ.V0mzF9JNFHbAzhccUQjMaw";
@@ -13,6 +12,7 @@ function MapPage() {
   const markerRefs = useRef([]);
   const [filters, setFilters] = useState(["all"]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState(null);
 
   const filterOptions = [
     "recycling",
@@ -108,19 +108,19 @@ function MapPage() {
         console.error("Error loading Utah geojson:", error);
       }
 
-      ecoData.forEach(({ name, coords, icon, type }) => {
+      ecoData.forEach((location) => {
+        const { name, coords, icon, type, address } = location;
         if (!coords || coords.length !== 2) return;
 
         const el = document.createElement("div");
-        el.className = "text-2xl";
+        el.className = "text-2xl cursor-pointer";
         el.textContent = icon;
-
-        const popup = new mapboxgl.Popup({ offset: 25 }).setText(name);
 
         const marker = new mapboxgl.Marker({ element: el })
           .setLngLat(coords)
-          .setPopup(popup)
           .addTo(mapRef.current);
+
+        el.addEventListener("click", () => setSelectedLocation(location));
 
         markerRefs.current.push({ marker, type, name: name.toLowerCase() });
       });
@@ -167,7 +167,7 @@ function MapPage() {
       {/* Map Section */}
       <div className="pt-[7rem]">
         <div className="relative">
-          <div className="h-[70vh]">
+          <div className="h-[90vh]">
             <div ref={mapContainer} className="w-full h-full" />
             {/* Floating Control Panel */}
             <div className="absolute top-[2rem] left-4 z-10 bg-white p-4 rounded-md shadow-md space-y-4 w-80">
@@ -215,32 +215,46 @@ function MapPage() {
                 </button>
               </div>
             </div>
+
+            {/* Location Detail Bar */}
+            {selectedLocation && (
+              <div className="absolute bottom-0 left-0 w-full bg-white shadow-2xl border-t border-gray-300 z-10">
+                <div className="px-8 py-6">
+                  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div className="text-left">
+                      <h3 className="text-3xl font-bold text-green-800 flex items-center gap-3">
+                        {selectedLocation.icon} {selectedLocation.name}
+                      </h3>
+                      <p className="text-lg text-gray-500 capitalize mt-1">
+                        {filterLabels[selectedLocation.type] || selectedLocation.type}
+                      </p>
+                      {selectedLocation.address && (
+                        <p className="text-lg text-gray-700 mt-2">{selectedLocation.address}</p>
+                      )}
+                      {selectedLocation.phone && (
+                        <p className="text-lg text-gray-700 mt-1">
+                          <span className="text-red-500 mr-2">📞</span> {selectedLocation.phone}
+                        </p>
+                      )}
+                      {selectedLocation.email && (
+                        <p className="text-lg text-gray-700 mt-1">
+                          <span className="text-blue-500 mr-2">✉️</span> {selectedLocation.email}
+                        </p>
+                      )}
+                    </div>
+                    <button
+                      onClick={() => setSelectedLocation(null)}
+                      className="text-lg text-red-600 hover:underline sm:self-start"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
-
-      {/* Donation Tray */}
-      <section className="py-16 bg-gradient-to-b from-green-50 to-green-100">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Support Eco-Connect</h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Your donation helps us connect communities with eco-friendly initiatives.
-            Every contribution makes a difference and helps drive positive change for our planet.
-          </p>
-          <div className="flex justify-center gap-4">
-            <Link to="/donations">
-              <button className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-green-700 transition">
-                Donate Now
-              </button>
-            </Link>
-            <Link to="/about">
-              <button className="bg-white text-green-600 px-8 py-3 rounded-full font-semibold border border-green-600 hover:bg-green-50 transition">
-                Learn More
-              </button>
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
