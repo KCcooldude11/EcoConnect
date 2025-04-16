@@ -49,7 +49,6 @@ function EventCard({ event, isRSVPd, onRSVP }) {
                     {description}
                 </div>
             </div>
-
           <button
             onClick={(e) => {
               e.stopPropagation();
