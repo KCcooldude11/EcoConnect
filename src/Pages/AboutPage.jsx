@@ -1,6 +1,7 @@
 import background from '../assets/green-leaves-plants.jpg';
 import FAQ from '../Components/FAQ';
 import treePlanting from '../assets/tree-planting.jpg'; // Import the image
+import Footer from '../Components/Footer';
 
 function AboutPage() {
   return (
@@ -81,8 +82,10 @@ function AboutPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
-  );
+    
+  );  
 }
 
 export default AboutPage;

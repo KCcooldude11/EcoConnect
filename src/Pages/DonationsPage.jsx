@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import donations from '../assets/donations.jpeg'; 
+import Footer from '../Components/Footer';
 
 function DonationsPage() {
   const [expanded, setExpanded] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [selectedCause, setSelectedCause] = useState("");
   const [donationFrequency, setDonationFrequency] = useState("One-time");
+ 
 
 
   const toggleCause = (section) => {
@@ -254,11 +256,8 @@ function DonationsPage() {
           </div>
         </div>
       </div>
-
-
-
-     
     </div>
+    <Footer />
     </div>
   );
 }
