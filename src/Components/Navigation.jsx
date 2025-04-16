@@ -34,7 +34,7 @@ function Navigation() {
   }, []);
 
   const navbarStyle = {
-    backgroundColor: `rgba(34, 197, 94, ${bgAlpha})`,
+    backgroundColor:  `rgba(92, 138, 72, ${bgAlpha})`, // Updated to #5C8A48
     backdropFilter: "blur(10px)",
     WebkitBackdropFilter: "blur(10px)",
   };

@@ -1,4 +1,3 @@
-// tailwind.config.js
 export default {
   content: [
     "./index.html",
@@ -11,10 +10,11 @@ export default {
       },
       colors: {
         green: {
-          tree: '#5C8A48', // Custom green-400 color
+          tree: '#5C8A48', 
         },
       },
     },
     },
-  plugins: [require('@tailwindcss/line-clamp')],
+  plugins: [],
+}
 }
