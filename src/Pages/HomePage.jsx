@@ -147,23 +147,30 @@ function HomePage() {
                     })}
                   </div>
   
-                  <div className="absolute top-1/2 left-1/2 w-[700px] h-[700px] -translate-x-1/2 -translate-y-1/2 z-10">
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] xl:w-[700px] xl:h-[700px]">
+                    {/* Spinning Brush Ring */}
                     <img
                       src="/assets/brush-ring.png"
                       alt="Brush Ring"
                       className="absolute inset-0 w-full h-full animate-[spin_15s_linear_infinite] pointer-events-none"
                     />
-  
+
+                    {/* Center Logo */}
                     <img
                       src={logo}
                       alt="EcoConnect Logo"
-                      className="absolute top-1/2 left-1/2 w-[400px] h-[400px] -translate-x-1/2 -translate-y-1/2 z-10"
+                      className="absolute top-1/2 left-1/2 w-2/3 h-2/3 -translate-x-1/2 -translate-y-1/2 z-10"
                     />
-  
-                    <div className="absolute top-[65%] left-1/2 -translate-x-1/2 text-center z-20">
-                      <h1 className="text-5xl md:text-6xl font-bold">EcoConnect</h1>
-                      <p className="text-lg md:text-xl mt-1">Growing a Greener Tomorrow</p>
-                    </div>
+
+                    {/* Title Text */}
+                    <div className="absolute top-[68%] left-1/2 -translate-x-1/2 text-center z-20 px-2 w-full">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
+                      EcoConnect
+                    </h1>
+                    <p className="text-xs sm:text-sm md:text-base lg:text-lg font-medium mt-1">
+                      Growing a Greener Tomorrow
+                    </p>
+                  </div>
                   </div>
                 </div>
               )}
